@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield / Badge Base -->
+    <path
+        android:fillColor="#1C2541"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M54,22 L82,34 L82,58 C82,74 54,88 54,88 C54,88 26,74 26,58 L26,34 Z" />
+    
+    <!-- Glowing Inner Hexagon / Code Crystal -->
+    <path
+        android:fillColor="#00E5FF"
+        android:fillAlpha="0.15"
+        android:pathData="M54,28 L76,38 L76,56 C76,68 54,80 54,80 C54,80 32,68 32,56 L32,38 Z" />
+
+    <!-- Code Brackets < / > -->
+    <!-- Left Bracket < -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M45,46 L38,53 L45,60" />
+
+    <!-- Right Bracket > -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M63,46 L70,53 L63,60" />
+
+    <!-- Center Slash / -->
+    <path
+        android:strokeColor="#FFD600"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M57,44 L51,62" />
+
+    <!-- Sparkle Star at top -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,32 L56,36 L60,37 L57,40 L58,44 L54,42 L50,44 L51,40 L48,37 L52,36 Z" />
+</vector>
